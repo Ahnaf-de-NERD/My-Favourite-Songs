@@ -37,12 +37,19 @@ let list_of_songs = {
     "Arcade": "Arcade.mp4",
     "Ava": "Ava.mp4",
     "Love Me Again": "Love Me Again.mp4",
+    "Cotton Spheres": "Cotton Spheres.mp4",
     "Cradles": "Cradles.mp4",
+    "Dancin": "Dancin.mp4",
     "GOTH": "GOTH.mp4",
+    "House of Memories": "House of Memories.mp4",
     "Hung Up": "Hung Up.mp4",
+    "Levitating": "Levitating.mp4",
     "Moral of the Story": "Moral of the Story.mp4",
     "On The Floor": "On The Floor.mp4",
     "Past Lives": "Past Lives.mp4",
+    "Blinding Lights": "Blinding Lights.mp4",
+    "Somebody That I Used To Know": "Somebody That I Used To Know.mp4",
+    "Stay": "Stay.mp4",
     "Die With A Smile": "Die With A Smile.mp4"
 };
 
