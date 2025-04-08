@@ -37,30 +37,31 @@ let list_of_songs = {
     "Arcade": "Arcade.mp4",
     "Ava": "Ava.mp4",
     "Love Me Again": "Love Me Again.mp4",
-    "Cotton Spheres": "Cotton Spheres.mp4",
     "Cradles": "Cradles.mp4",
-    "Dancin": "Dancin.mp4",
     "GOTH": "GOTH.mp4",
-    "House of Memories": "House of Memories.mp4",
     "Hung Up": "Hung Up.mp4",
-    "Levitating": "Levitating.mp4",
     "Moral of the Story": "Moral of the Story.mp4",
     "On The Floor": "On The Floor.mp4",
     "Past Lives": "Past Lives.mp4",
-    "Blinding Lights": "Blinding Lights.mp4",
-    "Somebody That I Used To Know": "Somebody That I Used To Know.mp4",
-    "Stay": "Stay.mp4",
     "Die With A Smile": "Die With A Smile.mp4"
 };
 
 let main_div = document.getElementById("main_div");
+let footer_section = document.getElementById("footer-section");
 let content = "";
 
 for(let i = 0; i < Object.keys(list_of_songs).length; i++){
-    content += `<div class="song"><h2>${Object.keys(list_of_songs)[i]}</h2><video width="300px" controls><source src="my_playlist/${list_of_songs[Object.keys(list_of_songs)[i]]}" type="video/mp4">Something went wrong!</video></div>`;
+    content += `<div class="song"><h2>${Object.keys(list_of_songs)[i]}</h2><video width="300px" controls><source src="${list_of_songs[Object.keys(list_of_songs)[i]]}" type="video/mp4">Something went wrong!</video></div>`;
 }
 
 main_div.innerHTML = content;
+
+let username = prompt("Username:");
+if (username == "Meghna" || username == "meghna" || username == "Afrina" || username == "afrina"){
+	footer_section.innerHTML = `<h2>Special Shoutout 💖</h2><p>This entire site exists because of a convo about our favorite tracks.<br>Big thanks to <strong>Meghna</strong> — you brought the vibe ✨</p><p>Also special thanks to <a href="https://www.youtube.com/@7clouds" target="_blank">7clouds</a> and the amazing artists for the music inspiration.</p><p><em><b>&copy; Ahnaf Shariar 2025. All rights reserved.</b></em></p>`;
+}else{
+	footer_section.innerHTML = `<h2>Special Shoutout 💖</h2><p>Special thanks to <a href="https://www.youtube.com/@7clouds" target="_blank">7clouds</a> and the amazing artists for the music inspiration.</p><p><em><b>&copy; Ahnaf Shariar 2025. All rights reserved.</b></em></p>`;
+}
 
 console.log("12 hours of work");
 console.log("Made with 🎵 and ❤️ — sparkled by Meghna");
