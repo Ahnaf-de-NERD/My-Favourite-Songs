@@ -64,7 +64,7 @@ for(let i = 0; i < Object.keys(list_of_songs).length; i++){
 main_div.innerHTML = content;
 
 let username = prompt("Username:");
-if (username == "Meghna" || username == "meghna" || username == "Afrina" || username == "afrina" || username == "Ahnaf" || username == "ahnaf"){
+if (username == "Meghna" || username == "meghna" || username == "Afrina" || username == "afrina" || username == "Ahnaf1024" || username == "ahnaf1024"){
 	footer_section.innerHTML = `<h2>Special Shoutout 💖</h2><p>This entire site exists because of a convo about our favorite tracks.<br>Big thanks to <strong>Meghna</strong> — you brought the vibe ✨</p><p>Also special thanks to <a href="https://www.youtube.com/@7clouds" target="_blank">7clouds</a> and the amazing artists for the music inspiration.</p><p><em><b>&copy; Ahnaf Shariar 2025. All rights reserved.</b></em></p>`;
 }else{
 	footer_section.innerHTML = `<h2>Special Shoutout 💖</h2><p>Special thanks to <a href="https://www.youtube.com/@7clouds" target="_blank">7clouds</a> and the amazing artists for the music inspiration.</p><p><em><b>&copy; Ahnaf Shariar 2025. All rights reserved.</b></em></p>`;
