@@ -48,7 +48,7 @@ let list_of_songs = {
     "On The Floor": "On The Floor.mp4",
     "Past Lives": "Past Lives.mp4",
     "Blinding Lights": "Blinding Lights.mp4",
-    "Somebody That I Used To Know": "Somebody That I Used To Know.mp4",
+    "Moonlight": "Moonlight.mp4",
     "Stay": "Stay.mp4",
     "Die With A Smile": "Die With A Smile.mp4"
 };
